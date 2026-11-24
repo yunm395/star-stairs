@@ -508,7 +508,7 @@ let mine = null, writing = false;
 // 웹사이트로 열었을 때: 랭킹은 Netlify 서버(/api/scores)를 쓰고, 코인·구매는 이 브라우저에 저장해요
 const WEB = !window.claude || typeof window.claude.use !== 'function';
 // GitHub Pages(github.io)에서 열면 랭킹 서버가 다른 주소에 있어요. Netlify 사이트 주소를 여기에 적어요.
-const RANK_SERVER = 'https://NETLIFY-SITE.netlify.app';
+const RANK_SERVER = 'https://star-stairs.netlify.app';
 const API = (location.hostname.endsWith('.github.io') ? RANK_SERVER : '') + '/api/scores';
 let pid = null;
 if (WEB) {
