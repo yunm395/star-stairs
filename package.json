@@ -1,0 +1,13 @@
+{
+  "name": "star-stairs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "별까지 계단 — 노을 언덕에서 은하수까지 돌계단을 오르는 반사신경 게임",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^8.1.0"
+  }
+}
